@@ -13,8 +13,6 @@ sudo curl https://raw.githubusercontent.com/DoctorPok42/my_web/develop/nginx/int
 sudo mv intra.asrlab.lan /etc/nginx/sites-available/intra.asrlab.lan
 sudo mv intra-adm.asrlab.lan /etc/nginx/sites-available/intra-adm.asrlab.lan
 
-sudo rm intra.asrlab.lan*
-
 sudo ln -s /etc/nginx/sites-available/intra.asrlab.lan /etc/nginx/sites-enabled/
 sudo ln -s /etc/nginx/sites-available/intra-adm.asrlab.lan /etc/nginx/sites-enabled/
 
