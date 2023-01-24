@@ -7,6 +7,9 @@ sudo chmod -R 755 /var/www/intra.asrlab.lan
 sudo mkdir -p /var/www/intra-adm.asrlab.lan/html
 sudo chmod -R 755 /var/www/intra-adm.asrlab.lan
 
+touch /var/www/intra.asrlab.lan/html/index.html
+touch /var/www/intra-adm.asrlab.lan/html/index.html
+
 sudo curl https://raw.githubusercontent.com/DoctorPok42/my_web/develop/nginx/intra.asrlab.lan >> intra.asrlab.lan
 sudo curl https://raw.githubusercontent.com/DoctorPok42/my_web/develop/nginx/intra-adm.asrlab.lan >> intra-adm.asrlab.lan
 
