@@ -23,6 +23,8 @@ server {
     }
 }
 
+CTRL+X, Y, ENTER
+
 sudo nano /etc/nginx/sites-available/intra-adm.asrlab.lan
 
 server {
@@ -38,6 +40,8 @@ server {
         try_files $uri $uri/ =404;
     }
 }
+
+CTRL+X, Y, ENTER
 
 sudo ln -s /etc/nginx/sites-available/intra.asrlab.lan /etc/nginx/sites-enabled/
 sudo ln -s /etc/nginx/sites-available/intra-adm.asrlab.lan /etc/nginx/sites-enabled/
